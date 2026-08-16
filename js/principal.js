@@ -1,0 +1,1 @@
+const target=new Date("2026-11-14T06:00:00-03:00").getTime();function tick(){const n=Math.max(0,target-Date.now()),d=Math.floor(n/86400000),h=Math.floor(n/3600000%24),m=Math.floor(n/60000%60);document.querySelector("#countdown").innerHTML=`<span><b>${d}</b>días</span><span><b>${h}</b>horas</span><span><b>${m}</b>min</span>`}tick();setInterval(tick,1000);
