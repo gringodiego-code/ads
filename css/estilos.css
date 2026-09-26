@@ -5,3 +5,7 @@
 /* Identidad visual ADS y nuevas fotografías */
 .brand img{width:38px;height:38px;border-radius:50%;object-fit:cover;border:1px solid #fff}.brand small{font-size:7px;max-width:62px}.hero>img{object-position:center 34%}.flagPhoto img{object-position:center 50%}.flagPhoto:after{background:linear-gradient(90deg,#0009 0%,#0002 62%,transparent)}
 @media(max-width:750px){.nav{padding:10px 16px}.brand{gap:7px}.brand img{width:32px;height:32px}.brand small{font-size:6px;max-width:54px}.hero>img{object-position:center 26%}.flagPhoto{height:46vh}.flagPhoto img{object-position:center}.flagPhoto blockquote{left:20px;bottom:26px}}
+
+/* Perfil de altitud Proyecto 13 */
+.elevationProfile{margin-top:80px;padding-top:45px;border-top:1px solid #bbb7ae}.profileIntro{display:grid;grid-template-columns:.55fr 1.1fr 1fr;gap:35px;align-items:start;margin-bottom:32px}.profileIntro .kicker{margin:7px 0}.profileIntro h3{font-size:30px;line-height:1.08;margin:0}.profileIntro>p:last-child{margin:0;color:var(--muted);line-height:1.65}.elevationProfile>img{width:100%;height:auto;object-fit:contain;background:#f3f0e8;border:1px solid #d8d4ca}
+@media(max-width:750px){.elevationProfile{margin-top:55px;padding-top:35px}.profileIntro{grid-template-columns:1fr;gap:12px}.profileIntro h3{font-size:25px}.elevationProfile>img{width:155%;max-width:none;transform:translateX(-18%)}.elevationProfile{overflow:hidden}}
